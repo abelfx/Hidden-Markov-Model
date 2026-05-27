@@ -24,12 +24,13 @@ Usage
   - model definition and initialization
   - training/parameter estimation (Baum–Welch)
   - decoding (Viterbi)
-  - visualization and examples
 
 Dependencies
 - See `requirements.txt` for the Python packages used by the notebook.
 
-Notes
-- The notebook is intended for learning and experimentation. For production use, consider using well-tested libraries and adding tests.
+## Dataset
+This project was trained and evaluated using the **English Web Treebank (EWT)**, provided by the [Universal Dependencies](https://universaldependencies.org/) framework. 
 
-If you want, I can also run a quick dependency check or pin exact versions.
+* **Repository:** [UD_English-EWT](https://github.com/UniversalDependencies/UD_English-EWT)
+* **Training Data:** `en_ewt-ud-train.conllu`
+* **Size:** ~20,000 words annotated with 18 Universal POS tags.
