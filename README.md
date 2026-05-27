@@ -7,17 +7,20 @@ Contents
 
 Quick start
 1. Create and activate a Python virtual environment (recommended):
-
+    ```
 	python -m venv .venv
 	source .venv/bin/activate
+    ```
 
 2. Install dependencies:
-
+    ```
 	pip install -r requirements.txt
+    ```
 
 3. Launch the notebook:
-
+    ```
 	jupyter notebook Hidden_Markov_Model.ipynb
+    ```
 
 Usage
 - Run the notebook cells in order. The notebook includes sections for:
